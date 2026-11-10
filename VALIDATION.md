@@ -17,3 +17,7 @@ An independent agent read this candidate and answered three further text-only ta
 ## Actual local Codex install (2026-11-11)
 
 The candidate was registered with `codex plugin marketplace add` and installed with `codex plugin add`. `codex plugin list` reported version 0.1.0 installed and enabled. All packaged skill files matched the installed cache byte-for-byte. This establishes local discovery/installation in the tested client, not official directory approval, fresh-session model routing, visual playback or engine integration.
+
+## GitHub-tag installation and hosted CI (2026-11-11)
+
+The temporary local marketplace was replaced by the GitHub source pinned to `v0.1.0`. The README installation commands succeeded, and Codex reported the Git-backed plugin installed and enabled. The tagged code passed the hosted `Validate package` GitHub Actions workflow. The uploaded release ZIP digest matched the local package SHA-256. This does not constitute official directory approval or fresh-session model-routing/visual/gameplay testing.
