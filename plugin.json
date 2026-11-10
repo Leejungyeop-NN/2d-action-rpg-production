@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "2d-action-rpg-production",
+  "version": "0.1.0",
+  "description": "Korean-first workflow guidance for sprite-based 2D action RPG and belt-scroll production. Scope and evaluation limits are explicit.",
+  "author": {
+    "name": "Jung Yeop Lee",
+    "url": "https://github.com/Leejungyeop-NN"
+  },
+  "homepage": "https://github.com/Leejungyeop-NN/2d-action-rpg-production",
+  "repository": "https://github.com/Leejungyeop-NN/2d-action-rpg-production",
+  "license": "MIT",
+  "keywords": [
+    "2d",
+    "action-rpg",
+    "belt-scroll",
+    "sprites",
+    "korean-dialogue",
+    "game-ui",
+    "skills"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "2D Action RPG Production",
+        "shortDescription": "Sprite RPG workflow guidance",
+        "longDescription": "Workflow guidance for sprite-based 2D action RPGs and belt-scroll games, with Korean-first narrative, dialogue, motion timing, skill effects, party/inventory UI, research and handoff references. Adjacent 2D genres require adaptation. This is not a game engine, asset pack, autonomous game generator, 3D/VR pipeline or multiplayer integration. No MCP server, hooks, credentials or paid-generation tools are bundled. Initial behavioral evaluation covers a small set of text-only tasks; real runtime, visual and commercial outcomes are not guaranteed.",
+        "developerName": "Jung Yeop Lee",
+        "category": "Productivity",
+        "capabilities": [
+          "Production guidance",
+          "Korean dialogue review",
+          "2D motion and effects review",
+          "Game UI workflow review"
+        ],
+        "websiteURL": "https://github.com/Leejungyeop-NN/2d-action-rpg-production",
+        "supportURL": "https://github.com/Leejungyeop-NN/2d-action-rpg-production/issues",
+        "privacyPolicyURL": "https://github.com/Leejungyeop-NN/2d-action-rpg-production/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/Leejungyeop-NN/2d-action-rpg-production/blob/main/LICENSE",
+        "defaultPrompt": [
+          "Review a 2D action RPG skill for weapon, hit and visual consistency.",
+          "Fix Korean dialogue continuity without inventing new canon.",
+          "Plan a focused party inventory UI review."
+        ],
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}

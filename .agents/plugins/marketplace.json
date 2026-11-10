@@ -1,0 +1,20 @@
+{
+  "name": "lee-game-production",
+  "interface": {
+    "displayName": "2D Action RPG Production"
+  },
+  "plugins": [
+    {
+      "name": "2d-action-rpg-production",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

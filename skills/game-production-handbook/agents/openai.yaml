@@ -1,0 +1,6 @@
+interface:
+  display_name: "2D Action RPG Production"
+  short_description: "2D 액션 RPG의 대사·모션·FX·게임 UI 제작과 검수"
+  default_prompt: "$game-production-handbook을 사용해 이 2D 액션 RPG 과업의 범위를 확인하고 필요한 제작·검수 지침을 적용해줘."
+policy:
+  allow_implicit_invocation: true
