@@ -1,7 +1,8 @@
 # Distribution and submission status
 
-- GitHub repository and Git-backed marketplace: release preparation in progress.
-- Official public ChatGPT/Codex directory: **not submitted / not approved**.
+- GitHub repository: public at https://github.com/Leejungyeop-NN/2d-action-rpg-production.
+- Git-backed marketplace catalog: included; local Codex install/enable verified. Release-tag installation is a separate verification step.
+- Official public ChatGPT/Codex directory: **not submitted / not approved**. Portal sign-in is pending.
 - Plugin type: skills only; no MCP server, hooks or remote integration.
 - Package: root plugin.json with portable Agent Plugins identity and OpenAI listing metadata.
 
